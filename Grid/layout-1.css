@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+}
+#container{
+    width:800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 200px;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+img{
+    width:100%;
+}
+#tittle{
+    grid-column-start: 1; 
+    grid-column-end: 3;
+}
+#menu{
+    grid-column: 1 / 2;
+}
+#login{
+    grid-column:3 / span 1;
+    grid-row: 1;
+}
+#main{
+    grid-column: 2 / span 4;
+/*    grid-row: 2/span2;*/
+    
+}
+#profile{
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 3;
+}
+#social{
+    grid-column: 1/span 2;
+        grid-row: 3;
+}

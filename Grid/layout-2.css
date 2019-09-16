@@ -1,0 +1,36 @@
+#container {
+	width: 1000px;
+	margin: 20px auto;
+	
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	column-gap: 0.5em;
+}
+
+#title {
+	grid-column: 2 / span 1;
+
+}
+
+#menu {
+	grid-column: 5 / span 1;
+	grid-row: 1;
+}
+
+#login {
+	grid-column: 1 / span 4;
+	grid-row: 4;
+}
+
+#main {
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 3;
+}
+
+#profile {
+	grid-column: 5 / span 1;
+}
+
+#social {
+	grid-column: 1 / span 1;
+}
