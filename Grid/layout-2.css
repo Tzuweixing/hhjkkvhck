@@ -8,33 +8,33 @@
 }
 
 #title {
-	grid-column: 1/ span 3;
-	grid-row:1;
+	grid-column: 2/ span 3;
+	grid-row:2;
 
 }
 
 #menu {
 	grid-column: 1 / span 3;
-	grid-row: 2;
+	grid-row: 1;
 }
 
 #login {
-	grid-column: 1 / span 1;
+	grid-column: 1 / span 2;
 	grid-row: 3;
 }
 
 #main {
 	grid-column: 2 / span 1;
-	grid-row: 4;
+	grid-row: 2 ? span 3;
 }
 
 #profile {
 	grid-column: 3 / span 1;
-	grid-row:4;
+/* 	grid-row:4; */
 }
 
 #social {
-	grid-column: 1 / span 4;
+	grid-column: 1 / span 3;
 }
 
 ul {
