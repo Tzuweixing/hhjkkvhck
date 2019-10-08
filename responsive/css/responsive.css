@@ -1,7 +1,22 @@
+#container {
+    width: 1000px;
+/*	max-width: 960px;*/
+    
+	margin: 20px auto;
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr;
+	column-gap: 1em;
+/*    grid-column:2/ span 2;*/
+}
+
 #title{background:;}
 #main{background: orange;
-grid-column: 1/ span 3;
-    grid-row: 4;
+/* grid-column: 1/ span 3;
+    grid-row: 5; */
+}
+#profile{
+grid-column:3/ span 1;
 }
 /*#menu{background:black;*/
 /*}*/
@@ -16,12 +31,20 @@ grid-column: 1/ span 3;
     }
     
     #menu{
-        grid-column: 1;
-    grid-row: 2;
+        grid-column: 1 / span 3;
+	grid-row: 2;
+    height: 30px;
     }
     #main{
-    grid-column: 1;
-        grid-row: 3;
+    grid-column: 2/ span 1;
+	grid-row: 3;
+    margin-top: 20px;
+    }
+    #profile{
+   
+    grid-column:3/ span 1;
+        grid-row: ;
+        
     }
     
 /*    menu flex box*/
