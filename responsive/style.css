@@ -4,6 +4,12 @@
 @import "css/create.css";
 @import "css/responsive.css";
 
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+
+
 img{
     width:100%;
      
@@ -20,6 +26,7 @@ color: aliceblue;
 
 #social li{
 color: aliceblue;
+   
 }
 
 .main{
