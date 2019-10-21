@@ -11,7 +11,7 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
 
-<!--
+
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -25,9 +25,9 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+//   firebase.analytics();
 </script>
--->
+
 </head>
 <body>
 	<div id="container">
@@ -37,6 +37,7 @@
 		</div>
 		<div id="menu">
 			<ul>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="about">About</a></li>
 				<li><a href="profile">Profile</a></li>
 				<li><a href="users">Users</a></li>
@@ -53,8 +54,9 @@
     <input id ="email" placeholder="Email">
         <input id = "password" placeholder = "Password" type="password">
         <button id = "create-button">Create </button>
-        <p id = "login-message"></p>
-        <p><a href = "create.html">Create new account</a></p>
+	<p id="error-message"></p>
+<!--         <p id = "login-message"></p>
+        <p><a href = "create.html">Create new account</a></p> -->
         
     
 </div>
