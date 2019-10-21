@@ -26,7 +26,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 /* log out */
 const logoutButton = document.getElementById("logout-button");
-//logoutButton.onclick = function() {
-//	firebase.auth().signOut();
-//};
+logoutButton.onclick = function() {
+	firebase.auth().signOut();
+};
 
