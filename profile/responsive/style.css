@@ -1,0 +1,33 @@
+@import "css/layout-2.css";
+@import "css/auth.css";
+@import "css/menu.css";
+@import "css/create.css";
+@import "css/responsive.css";
+
+img{
+    width:100%;
+     
+}
+li{
+background-color: black;
+   
+}
+
+
+#menu a{
+color: aliceblue;
+}
+
+#social li{
+color: aliceblue;
+}
+
+.main{
+width: 200px;
+}
+/*
+social{
+word-spacing: 10px;
+}
+*/
+
