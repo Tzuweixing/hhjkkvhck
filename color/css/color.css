@@ -44,7 +44,7 @@ orange accents*/
     --link-color:var(--main-color);
 }
 /*complementary*/
-/* :root{
+:root{
     --main-hue: 400;
     --complement-hue: calc(var(--main-hue) - 200);
     --main-color: hsl(var(--main-hue), 50%, 50%);
@@ -54,7 +54,7 @@ orange accents*/
     --text-color:var(--main-color);
     --link-color:var(--complement);
     
-} */
+}
 /*monochromatic*/
 :root{
     --main-hue:168;
