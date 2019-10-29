@@ -26,7 +26,7 @@ orange accents*/
     --text-color: hsl(var(--main-color), 30%, 30%);
     --accent-one-hue: calc(var(--main-hue) - 10);
     --accent-two-hue: calc(var(--main-hue) + 12);
-    --accent-one: hsl(var(--accent-one-hue), 50%, 50%);
+    --accent-one: hsl(var(--accent-one-hue), 40%, 40%);
     --accent-two: hsl(var(--accent-two-hue), 50%, 50%);
     --complement: var(--accent-two);
 }
