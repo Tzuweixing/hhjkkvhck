@@ -40,7 +40,7 @@ orange accents*/
     --accent-one:hsl(var(--accent-one-hue), 50%, 50%);
     --accent-two:hsl(var(--accent-two-hue), 50%, 50%);
     --text-color:;
-    --complement: var(--accent-one);
+    --complement: hsl(var(--main-hue), 50%, 50%);
     --button-dark:hsl(var(--accent-one-hue), 80%, 80%);
     --link-color:var(--main-color);
 }
