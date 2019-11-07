@@ -38,6 +38,7 @@
         
         grid-column: 1/ span 2;
         grid-row: 3;
+	    height: 70px;
 /*        font-size:1.1em;*/
        
     }
