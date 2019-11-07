@@ -48,12 +48,12 @@
 
     #profile{
         grid-column: 1/span 1;
-        grid-row: 4;
+        grid-row: 6;
 /*        display: block;*/
     }
     #main{
         grid-column: 1/span 1;
-        grid-row:6;
+        grid-row:4;
 /*        display: block;*/
         
     }
