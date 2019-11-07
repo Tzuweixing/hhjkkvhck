@@ -1,0 +1,47 @@
+/*global styles*/
+@import "css/layout-2.css";
+@import "css/color.css";
+
+/*page styles*/
+@import "css/auth.css";
+@import "css/menu.css";
+@import "css/create.css";
+
+@import"css/public.css";
+@import"css/posts.css";
+/*reponsive*/
+@import "css/responsive.css";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+img{
+    width:100%;
+     
+}
+/*
+li{
+
+   
+}
+
+
+
+#menu a{
+
+}
+
+#social li{
+
+   
+}
+*/
+
+.main{
+width: 200px;
+}
+
