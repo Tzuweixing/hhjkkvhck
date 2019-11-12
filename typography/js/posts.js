@@ -28,8 +28,8 @@ function createPost(data){
 //    post.textContent = data.text;
     posts.insertBefore(post, posts.firstElementChild);
 //    posts.appendChild(post);
-    posts.appendChild(text);
-    posts.appendChild(author);
+    post.appendChild(text);
+    post.appendChild(author);
     post.appendChild(date);
 }
 
