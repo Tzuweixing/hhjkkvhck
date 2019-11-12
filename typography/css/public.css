@@ -26,11 +26,12 @@
 
 #write-post{
     background-color: var(--accent-one);
+    margin-left: 20px;
 }
 
 #post-text{
-    color: var(--text-color);
-    background-color:var(--complement);
+    color: var(--accent-two);
+/*     background-color:var(--complement); */
     
 }
 
