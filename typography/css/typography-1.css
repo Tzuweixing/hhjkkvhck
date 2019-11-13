@@ -1,6 +1,6 @@
 /* 1st typographic hierarchy */
 :root {
-	--display-font: 'Abril Fatface', cursive;
+	--display-font: 'Jomolhari', serif;
 	--text-font: 'Hind Siliguri', sans-serif;
 	--link-font: var(--display-font);
 }
@@ -35,6 +35,7 @@ a {
 }
 	
 .post .author {
+	font-family: var(--display-font);
 	display: inline-block;
 	margin-right: 0.25em;
 	color: var(--accent-two);
@@ -43,9 +44,10 @@ a {
 	
 .post .date {
 	display: inline-block;
+	margin: 20px;
 }
 	
-.post .date::before {
+/* .post .date::before {
 	content: " on ";
 	color: var(--main-color);
-}
+} */
