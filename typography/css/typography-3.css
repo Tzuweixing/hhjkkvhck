@@ -12,7 +12,7 @@ body {
 }
 	
 a {
-	font-family: var(--link-font);
+	font-family: var(--text-font);
 }
 	
 #title h1 {
@@ -36,6 +36,7 @@ a {
 }
 	
 .post .author {
+	font-family: var(--display-font);
 	display: inline-block;
 	margin-right: 0.5em;
 	color: var(--accent-two);
@@ -43,11 +44,12 @@ a {
 }
 	
 .post .date {
+	font-family: var(--display-font);
 	display: inline-block;
     font-size: 2em;
 }
 	
-.post .date::before {
+/* .post .date::before {
 	content: " on ";
 	color: var(--main-color);
-}
+} */
