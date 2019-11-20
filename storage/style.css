@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Pacifico&display=swap') ;
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface:400,700|Hind+Siliguri&display=swap') ;
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung:400,700|Big+Shoulders+Text&display=swap') ;
+
+
+
+/*global styles*/
+@import "css/layout-2.css";
+@import "css/color.css";
+@import "css/typography-1.css";
+/*
+@import "css/typography-2.css";
+@import "css/typography-3.css";
+*/
+
+/*page styles*/
+@import "css/auth.css";
+@import "css/menu.css";
+@import "css/create.css";
+@import "css/profile.css";
+@import"css/public.css";
+@import"css/posts.css";
+/*reponsive*/
+@import "css/responsive.css";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+img{
+    width:100%;
+     
+}
+/*
+li{
+
+   
+}
+
+
+
+#menu a{
+
+}
+
+#social li{
+
+   
+}
+*/
+
+.main{
+width: 200px;
+}
+
