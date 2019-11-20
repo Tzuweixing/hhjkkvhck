@@ -27,7 +27,7 @@
 #write-post{
     background-color: var(--accent-one);
     margin-left: 20px;
-    height: 100px;
+    height: 200px;
     margin-top: 20px;
 }
 
@@ -35,6 +35,7 @@
     color: var(--accent-two);
 /*    background-color:var(--complement);*/
    height: 80px;
+    margin-top: 20px;
 }
 
 #publish{
