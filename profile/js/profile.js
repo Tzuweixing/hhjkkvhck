@@ -4,14 +4,10 @@ const userRef = firebase.database().ref('users').child(uid);
 const profileName = document.getElementById('profile-name');
 const bioInput = document.getElementById('bio');
 const updateButton = document.getElementById('update-profile');
-
-const profilePhone = document.getElementById('profile-phone');
-
-const profileEmail = document.getElementById('profile-email');
+const profileEmail = document.getElementById('profile-phone);
 
 
-
-
+const profilePhone = document.getElementById('phone');
 
 
 userRef.on('value', function(snapshot) {
@@ -20,13 +16,11 @@ userRef.on('value', function(snapshot) {
 	
 	if (userInfo.bio) {
 		bioInput.value = userInfo.bio;
-    }
-    if(userInfo.email){
-        profileEmail.value = userInfo.email;
-        }
+	(userInfo.email)
+        emailInput.value = userInfo.email;
     
-    if(userInfo.phone){
-        profilePhone.value = userInfo.phone;
+    (userInfo.phone)
+        phoneInput.value = userInfo.phone;
 	}
 });
 
@@ -34,7 +28,7 @@ updateButton.onclick = function() {
 	userRef.update({
 		displayName: profileName.value,
 		bio: bioInput.value,
-		email: profileEmail.value,
-        phone: profilePhone.value,
+		email: emailInput.value,
+        phone: phoneInput.value,
 	});
 };
