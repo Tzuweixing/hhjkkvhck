@@ -16,10 +16,10 @@
     --main-color: hsl(var(--main-hue), 50%, 50%);
      --text-color: hsl(var(--main-color), 30%, 30%);
      --accent-one-hue: calc(var(--main-hue) + 10);
-         --accent-two-hue: calc(var(--main-hue) + 50);
-             --accent-one: hsl(var(--accent-one-hue), 60%, 50%);
-                 --accent-two: hsl(var(--accent-two-hue), 90%, 90%);
-                     --complement: var(--accent-two);
+     --accent-two-hue: calc(var(--main-hue) + 50);
+     --accent-one: hsl(var(--accent-one-hue), 60%, 50%);
+    --accent-two: hsl(var(--accent-two-hue), 90%, 90%);
+    --complement: var(--accent-two);
 
 }
 
@@ -30,7 +30,10 @@
 }
 
 #post-text{
-    color: var(--text-color);
+    color: var(--accent-two);
+    font-size: 2em;
+    border: 7px solid var(--main-color);	
+    
 /*     background-color:var(--complement); */
     
 }
@@ -38,5 +41,7 @@
 #publish{
 
     color:black;
+    font-size: 1.5em;
+    border: 0.5em solid var(--complement);
         
 }
