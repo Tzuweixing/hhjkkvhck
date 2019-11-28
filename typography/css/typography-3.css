@@ -1,7 +1,7 @@
 /* Third typographic hierarchy */
 
 :root {
-	--display-font: 'Dancing Script', cursive;
+	--display-font: 'Caveat', cursive;
 	--text-font: 'Pacifico', cursive;
 	--link-font: var(--display-font);
 }
