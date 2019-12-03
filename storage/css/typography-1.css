@@ -1,6 +1,6 @@
 /* 1st typographic hierarchy */
 :root {
-	--display-font: 'Abril Fatface', cursive;
+	--display-font: 'Francois One', sans-serif;
 	--text-font: 'Hind Siliguri', sans-serif;
 	--link-font: var(--display-font);
 }
