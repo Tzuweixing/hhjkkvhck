@@ -32,14 +32,14 @@
 .post .author{
    background: var(--accent-one);
     padding: 10px;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
 }
 
 .post .date{
     background: var(--main-color);
     padding: 10px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 /*
