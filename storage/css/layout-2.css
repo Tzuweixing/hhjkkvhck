@@ -53,6 +53,9 @@ width:1000px;
 #write-post,#post-text{
     grid-column: 1/span 3;
 }
+#edit-profile-image{
+width: 90%;
+}
 
 #profile {
 	grid-column: 2 / span 3;
