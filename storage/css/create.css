@@ -1,6 +1,6 @@
 input,button{
 font-size: 1.2em;
-    font-family:inherit;
+/*     font-family:inherit; */
     border: none;
 }
 input:focus, button:focus {
