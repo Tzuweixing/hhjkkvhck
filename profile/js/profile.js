@@ -3,11 +3,9 @@ const userRef = firebase.database().ref('users').child(uid);
 
 const profileName = document.getElementById('profile-name');
 const bioInput = document.getElementById('bio');
-const updateButton = document.getElementById('profile-email');
-const profileEmail = document.getElementById('profile-phone');
-
-
-//const profilePhone = document.getElementById('phone');
+const updateButton = document.getElementById('update-profile');
+const profileEmail = document.getElementById('profile-email');
+const profilePhone = document.getElementById('profile-phone');
 
 
 userRef.on('value', function(snapshot) {
@@ -28,7 +26,7 @@ updateButton.onclick = function() {
 	userRef.update({
 		displayName: profileName.value,
 		bio: bioInput.value,
-		profile-email: emailInput.value,
-        profile-phone: phoneInput.value,
+		profileEmail: emailInput.value,
+        profilePhone: phoneInput.value,
 	});
 };
