@@ -1,0 +1,43 @@
+
+:root{
+    --main-hue:29;
+    --main-color: hsl(var(--main-hue), 40%, 40%);
+     --text-color: hsl(var(--main-color), 30%, 30%);
+     --accent-one-hue: calc(var(--main-hue) + 5);
+         --accent-two-hue: calc(var(--main-hue) - 12);
+             --accent-one: hsl(var(--accent-one-hue), 60%, 50%);
+                 --accent-two: hsl(var(--accent-two-hue), 70%, 50%);
+                     --complement: var(--accent-two);
+
+}
+
+
+#posts{
+/*    background: var(--accent-one);  */
+    margin: 20px auto;
+}
+
+.post{
+    background: var(--accent-two);
+    margin: 20px;
+}
+
+.post .text{
+    background: var(--complement); 
+    margin-left: 20px;
+    padding:10px;
+    font-size: 30px;
+}
+
+.post .author{
+   background: var(--accent-one);
+    padding: 10px;
+    font-size: 30px;
+    
+}
+
+.post .date{
+    background: var(--main-color);
+    padding: 10px;
+    font-size: 30px;
+}

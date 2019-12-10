@@ -2,15 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>grid</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+	
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
-
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
-
 
 <script>
   // Your web app's Firebase configuration
@@ -25,9 +26,8 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-//   firebase.analytics();
+//  firebase.analytics();
 </script>
-
 </head>
 <body>
 	<div id="container">
@@ -37,7 +37,7 @@
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="index.html">Home</a></li>
+			<li id="home"><a href="index.html">Home</a></li>
 				<li><a href="about">About</a></li>
 				<li><a href="profile">Profile</a></li>
 				<li><a href="users">Users</a></li>
@@ -46,53 +46,29 @@
 	
 	    
 	    
-	</div>		
+	</div>
+		
 <div id="main">
 <!--    <create user>-->
   <h1>Create a new account</h1>
-   <input id ="username" placeholder="username">
+<!--  <div id="create-account">-->
+      
+
+   <input id ="username" placeholder="Username">
     <input id ="email" placeholder="Email">
         <input id = "password" placeholder = "Password" type="password">
         <button id = "create-button">Create </button>
-	<p id="error-message"></p>
-<!--         <p id = "login-message"></p>
-        <p><a href = "create.html">Create new account</a></p> -->
-        
-    
-</div>
-    
-    
-    <!--
-		</div>
-		<div id="login">
-		<input id="email" placeholder="Email">
-		<input id="password" placeholder="password" type="password">
-			<button id="login-button">Login</button>
-			<p id="login-message"></p>
-			<p><a href="create.html">Create User</a></p>
-		</div>
-		<div id="main">
-		create User
-			<img src="city.jpg" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam atque dolorem excepturi officiis beatae, fugiat culpa non fuga maxime quos illo earum, quod blanditiis consequatur fugit dolores provident, aperiam aliquid!</p>
-		</div>
-		<div id="profile">
-			<img src="city.jpg" alt="">
-			<button>Edit Profile</button>
-		</div>
-		<div id="social">
--->
 <!--
-			<ul>
-				<li>Twitter</li>
-				<li>Facebook</li>
-				<li>Instagram</li>
-				<li>LinkedIn</li>
-			</ul>
-		</div>
+        <p id = "login-message"></p>
+        <p><a href = "create.html">Create new account</a></p>
 -->
-<!--	</div>-->
+        <p id="error-message"></p>
+<!--    </div>-->
+</div>
+ </div>	   
+    
+
 	
-	<script src="create.js"></script>
+	<script src="js/create.js"></script>
 </body>
 </html>
