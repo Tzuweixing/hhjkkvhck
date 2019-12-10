@@ -1,0 +1,53 @@
+
+:root{
+    --main-hue:29;
+    --main-color: hsl(var(--main-hue), 40%, 40%);
+     --text-color: hsl(var(--main-hue), 80%, 80%);
+     --accent-one-hue: calc(var(--main-hue) + 5);
+        --accent-two-hue: calc(var(--main-hue) - 12);
+            --accent-one: hsl(var(--accent-one-hue), 60%, 50%);
+--accent-two: hsl(var(--accent-two-hue), 70%, 50%);
+    --complement: var(--accent-two);
+
+}
+
+
+#posts{
+/*   background: var(--accent-one); */
+    margin: 100px auto;
+    grid-column: 1/span 4;
+}
+
+.post{
+    background: var(--accent-two);
+    margin: 20px;
+    word-break: break-all;
+
+}
+
+.post .text{
+    background: var(--complement); 
+    margin-left:20px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.post .author{
+   background: var(--accent-one);
+    padding: 10px;
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+.post .date{
+    background: var(--main-color);
+    padding: 10px;
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+/*
+.post .profile-image{
+    width: 200px;
+}
+*/
