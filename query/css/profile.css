@@ -4,12 +4,6 @@
 	font-size: 2em;
 }
 
-#main, #profile-name{
-    grid-column: 1/ span 1;
-    grid-row: 2;
-    
-    
-}
 #main, #bio{
    
     grid-column: 1/ span 3;
@@ -22,6 +16,42 @@
 }
 */
 
+
+
+/*
+#profile{
+ display: grid;
+}
+*/
+
+
 #main, #profile-name{
     grid-column: 1/ span 3;
 }
+
+
+/*
+#profile img{
+    width: 100%;
+}
+*/
+
+
+/*
+    grid-column: 1/span 2;
+    grid-row:5;
+*/
+    
+
+
+/*
+
+#main, #input{
+    grid-column: 1/span 2;
+    grid-row: 5;
+}
+ #add-image{
+grid-column: 2/ span3;
+    grid-row: 5;
+}
+*/
