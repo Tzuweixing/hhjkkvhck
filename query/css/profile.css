@@ -1,57 +1,31 @@
-/*
-#profile-name {
-	display: block;
-	font-size: 2em;
+
+
+#profile-page #main input {
+    display: block;   
+    
 }
 
-#main, #bio{
-   
-    grid-column: 1/ span 3;
-    grid-row: 3;
-}*/
-
-/*
-#bio{
-    grid-column: 1/ span 5;
-}
-*/
-
-
-
-/*
-#profile{
- display: grid;
-}
-*/
-
-
-#main, #profile-name{
-    grid-column: 1/ span 3;
+#profile-page #main {
+    grid-column: 1/ span 1;
+    grid-row: 4;
+    margin-top: 150px;
 }
 
 
-/*
-#profile img{
+#add-image {
+    grid-column: 2/ span 2;
+    width: 100%;
+    grid-row: 5;
+}
+
+#profile-page #image-file{
     width: 100%;
 }
-*/
 
-
-/*
-    grid-column: 1/span 2;
-    grid-row:5;
-*/
-    
-
-
-/*
-
-#main, #input{
-    grid-column: 1/span 2;
-    grid-row: 5;
+#profile-page #social{
+    margin-top: 20px;
 }
- #add-image{
-grid-column: 2/ span3;
-    grid-row: 5;
+
+#profile-page button{
+    width: 100%;
 }
-*/

@@ -9,13 +9,16 @@
         width: 100%;
         height: 100%;
         padding: 0;
+/*
         grid-template-columns: 100%;
-        /*        grid-template-rows:auto auto 100px auto auto;*/
-        /*    grid-template-columns: 1fr 1fr ;*/
+                grid-template-rows:auto auto 100px auto auto auto;
+*/
+            grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 100px auto 180px 330px 50px 10px;
     }
 
     #title {
-        font-size: 5em;
+        font-size: 8em;
         /*        grid-column: 1/span 4;*/
         grid-column: 1 / span 1;
     }
@@ -67,27 +70,69 @@
     #main button{
         font-size: 1em;
     }
+    #main{
+        grid-column: 1/span 1;
+        grid-row: 6;
+        
+    }
+    .auth #main {
+/*
+        grid-column: 1/span 1;
+        grid-row: 4;
+*/
+        /*        display: block;*/
+
+    }
+    #posts{
+        width: 100%;
+        
+    }
+    
+    #main, #posts .date{
+        font-size: 1.5em;
+        height: 60px;
+    
+    }
+    #main, #posts .author{
+        font-size: 1.5em;
+        height: 60px;
+        
+    }
+    #main, #posts .author a{
+        font-size: .7em;
+        height: 60px;
+    }
+    #main, #posts a{
+        font-size: 1.5em;
+        height: 60px;
+    }
+    #main, #posts img{
+        width: 100%;
+    }
+    
+    p{
+        font-size: 1.5em;
+    }
 
     #profile {
         grid-column: 1/span 1;
-        grid-row: 6;
-        /*        display: block;*/
-    }
-
-    .auth #main {
-        grid-column: 1/span 1;
         grid-row: 4;
+        
         /*        display: block;*/
-
     }
+
+    
 
     #social {
 
         grid-column: 1/span 1;
-        grid-row: 8;
+        grid-row: 5;
+        font-size: 1.3em;
+        
+        height: 100px;
+        margin-top: 10px;
         /*        display: block;*/
     }
-    
     
 
 }

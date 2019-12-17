@@ -11,11 +11,16 @@ const profilePhone = document.getElementById('profile-phone');
 userRef.on('value', function(snapshot) {
 	const userInfo = snapshot.val();
 	profileName.value = userInfo.displayName;
-	
-	if (userInfo.bio) {
-		bioInput.value = userInfo.bio;}
+
+    
+    
+//	if (userInfo.bio) {
+//		bioInput.value = userInfo.bio;
+//    }
+    
 	if(userInfo.email){
-        emailInput.value = userInfo.email;}
+        emailInput.value = userInfo.email;
+    }
     
     if(userInfo.phone){
         phoneInput.value = userInfo.phone;
