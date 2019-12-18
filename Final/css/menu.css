@@ -1,0 +1,26 @@
+#menu ul{
+
+    margin: 0;
+/*    padding: 0;*/
+    display:flex;
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    flex-wrap: wrap;*/
+    
+}
+#menu li{
+list-style: none;
+    flex-grow: 1;
+    font-size: 1.2em;
+    color: var(--text-color);
+/*    flex-basis: 120px;*/
+}
+#menu a {
+    color: var(--accent-two);
+}
+li#home{
+/*flex-grow: 2;*/
+/*    flex-basis: px;*/
+   
+}

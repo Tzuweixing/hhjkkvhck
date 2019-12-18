@@ -1,0 +1,75 @@
+
+:root{
+    --main-hue:29;
+    --main-color: hsl(var(--main-hue), 40%, 40%);
+     --text-color: hsl(var(--main-hue), 80%, 80%);
+     --accent-one-hue: calc(var(--main-hue) + 5);
+        --accent-two-hue: calc(var(--main-hue) - 12);
+            --accent-one: hsl(var(--accent-one-hue), 60%, 50%);
+--accent-two: hsl(var(--accent-two-hue), 0%, 0%);
+    --complement: hsl(var(--accent-two-hue), 70%, 50%);
+
+}
+
+
+
+#posts{
+/*   background: var(--accent-one); */
+/*    margin: 100px auto;*/
+/*    grid-column: 1/span 3;*/
+}
+
+.post{
+    background: var(--complement);
+    width: 100%;
+    word-break: break-all;
+
+    display: grid;
+/*    grid-template-columns: 1fr 2fr;*/
+}
+
+.post .text{
+    background: var(--complement); 
+    margin-left:20px;
+    padding: 10px;
+    font-size: 50px;
+    grid-column: 2 / span 2;
+    
+}
+
+.post .author{
+   background: var(--accent-one);
+/*    padding: 10px;*/
+    font-size: 50px;
+    color: var(--accent-two);
+    text-align: center;
+    
+}
+
+.post a{
+    background-color: var(--accent-one);
+/*    margin-left: 20px;*/
+    font-size: 50px;
+    text-align: center;
+}
+
+.post .date{
+    background: var(--main-color);
+/*    padding: 10px;*/
+    font-size: 50px;
+    color: var(--text-color);
+    
+    text-align: center;
+}
+
+/*
+.post .img{
+    width: 30%;
+}
+*/
+
+/*
+.post .profile-image{
+    width: 200px;
+}
+*/

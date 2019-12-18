@@ -1,0 +1,29 @@
+#users{
+    padding: 1em;
+    margin-top: 130px;
+}
+
+.user{
+    border:1px solid var(--accent-one);
+    margin: 0.5em 0;
+    padding: 1em;
+    color: var(--main-color);
+    background-color: var(--main-color);
+}
+
+.user .name{
+    font-size: 1.5em;
+    color: var(--main-color);
+}
+
+.user a{
+    color: var(--accent-two);
+}
+
+.user .bio{
+    font-family:  var(--text-font);
+    color: var(--text-color);
+}
+.user img{
+    width: 100px;
+}

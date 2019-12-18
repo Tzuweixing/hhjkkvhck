@@ -1,0 +1,213 @@
+@media (max-device-width:414px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    #container {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+/*
+        grid-template-columns: 100%;
+                grid-template-rows:auto auto 100px auto auto auto;
+*/
+            grid-template-columns: 1fr 1fr ;
+        grid-template-rows:60px auto 180px 330px 90px 100px;
+    }
+
+/*
+    #title {
+        font-size: 2em;
+                grid-column: 1/span 4;
+        grid-column: 1 / span 1;
+    }
+*/
+    
+    #title h1 {
+        font-size: 3em;
+        grid-column: 1 / span 1;
+    }
+
+    #menu {
+       
+        flex-direction: column;
+        /*          width:20px;
+         height: 10px; */
+        grid-column: 1/span 1;
+        grid-row: 2;
+        height: 50px;
+    }
+    #menu a{
+         font-size: 2em;
+    }
+
+    #menu li {
+        /*         padding: 0.1em;
+        margin: 0.6em; */
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: space-between;
+
+
+    }
+
+    #login {
+
+        grid-column: 1 / span 1;
+        grid-row: 3;
+        height: 50px;
+        /*        font-size:1.1em;*/
+
+    }
+    #login button{
+        font-size: 2em;
+    }
+
+    #login input {
+        font-size: 1em;
+
+    }
+    #main button{
+        font-size: 1em;
+    }
+    #main{
+        grid-column: 1/span 1;
+        grid-row: 6;
+        
+    }
+    .auth #main {
+/*
+        grid-column: 1/span 1;
+        grid-row: 4;
+*/
+        /*        display: block;*/
+
+    }
+    #posts{
+        width: 100%;
+        
+    }
+    
+    #main, #posts .date{
+        font-size: 1.5em;
+        height: 60px;
+    
+    }
+    #main, #posts .author{
+        font-size: 1.5em;
+        height: 60px;
+        
+    }
+    #main, #posts .author a{
+        font-size: .7em;
+        height: 60px;
+    }
+    #main, #posts a{
+        font-size: 1.5em;
+        height: 60px;
+    }
+    #main, #posts img{
+        width: 100%;
+    }
+    
+    p{
+        font-size: 1.5em;
+    }
+
+    #profile {
+        grid-column: 1/span 1;
+        grid-row: 4;
+        
+        /*        display: block;*/
+    }
+
+    
+
+    #social {
+
+        grid-column: 1/span 1;
+        grid-row: 5;
+        font-size: 1.3em;
+        line-height: 1;
+        height: 90px;
+        margin-top: 10px;
+        /*        display: block;*/
+    }
+    #create-page #h1{
+        grid-column: 1/span 1;
+    }
+    
+
+}
+
+@media (min-width: 415px) and (max-width: 800px) {
+    #container {
+/*        grid-template-rows: auto 160px 400px auto;*/
+        grid-template-columns: 1fr 3fr;
+        display: grid;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    
+    #title{
+        grid-column: 1/span 1;
+        grid-row: 1;
+        font-size: .8em;
+        
+        
+    }
+
+
+    #menu {
+        grid-column: 2 / span 2;
+        grid-row: 1;
+        height: 50px;
+        width: 400px;
+        padding: 0;
+        
+/*        margin-left: 70px;*/
+/*        margin-right: 70px;*/
+       
+    }
+
+    #login,
+    #user-info {
+        grid-column: 1/ span 1;
+        grid-row: 2;
+        height: 10px;
+/*        margin-top: 50px;*/
+/*        margin-left: 70px;*/
+/*        margin-right: 70px;*/
+    }
+
+    #profile {
+        grid-column: 2/span 2;
+        grid-row: 2;
+        margin-top: 20px;
+/*
+        margin-left: 70px;
+        margin-right: 70px;
+*/
+    }
+
+    #main {
+        grid-column: 1/span 2;
+        grid-row: 3;
+        margin-top: 30px;
+        width: 100%;
+
+
+    }
+
+    #social {
+        /*         grid-column: 1/ span 3;
+       grid-row: 5; */
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 2650px;
+    }
+}

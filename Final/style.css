@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Rye&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap');
+
+
+
+
+/*global styles*/
+@import "css/layout-2.css";
+@import "css/color.css";
+@import "css/typography-1.css";
+/*
+@import "css/typography-2.css";
+@import "css/typography-3.css";
+*/
+
+/*page styles*/
+@import "css/auth.css";
+@import "css/menu.css";
+@import "css/create.css";
+@import "css/profile.css";
+@import"css/public.css";
+@import"css/posts.css";
+@import"css/users.css";
+/*reponsive*/
+@import "css/responsive.css";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+img{
+    width:30%;
+   
+     
+}
+/*
+li{
+
+   
+}
+
+
+
+#menu a{
+
+}
+
+#social li{
+
+   
+}
+*/
+
+.main{
+width: 200px;
+}
+
