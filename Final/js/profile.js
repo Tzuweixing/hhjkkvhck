@@ -10,6 +10,7 @@ const profilePhone = document.getElementById('profile-phone');
 
 userRef.on('value', function(snapshot) {
 	const userInfo = snapshot.val();
+    console.log(userInfo);
 	profileName.value = userInfo.displayName;
 
     
@@ -19,20 +20,19 @@ userRef.on('value', function(snapshot) {
 //    }
     
 	if(userInfo.email){
-        emailInput.value = userInfo.email;
+        profileEmail.value = userInfo.email;
     }
     
     if(userInfo.phone){
-        phoneInput.value = userInfo.phone;
+    profilePhone.value = userInfo.phone;
 	}
 });
 
 updateButton.onclick = function() {
 	userRef.update({
 		displayName: profileName.value,
-		bio: bioInput.value,
-         profilePhone: phoneInput.value,
-		profileEmail: emailInput.value,
+         phone: profilePhone.value,
+		email: profileEmail.value,
        
 	});
 };
