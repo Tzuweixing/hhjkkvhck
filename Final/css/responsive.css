@@ -92,22 +92,22 @@
     }
     
     #main, #posts .date{
-        font-size: 1.5em;
-        height: 60px;
+        font-size: 1em;
+        height: 40px;
     
     }
     #main, #posts .author{
-        font-size: 1.5em;
-        height: 60px;
+        font-size: 1em;
+        height: 40px;
         
     }
     #main, #posts .author a{
-        font-size: .7em;
-        height: 60px;
+        font-size: 1em;
+        height: 40px;
     }
     #main, #posts a{
-        font-size: 1.5em;
-        height: 60px;
+        font-size: 1em;
+        height: 40px;
     }
     #main, #posts img{
         width: 100%;
