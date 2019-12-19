@@ -26,7 +26,7 @@ function createPost(postData, _userData, postId) {
     //    const post = document.createElement('div');
     const post = createElement('post');
     const text = createElement('text', postData.text);
-    const author = createElement('author', 'by');
+    const author = createElement('author', 'by ');
 //    console.log(userData);
     const authorLink = document.createElement('a');
     authorLink.href = 'user.html?uid=' + postData.uid;
