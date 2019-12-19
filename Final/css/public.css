@@ -36,6 +36,8 @@
     color: var(--accent-two);
 /*    background-color:var(--complement);*/
    height: 80px;
+    font-size: 1em;
+    font-family: var(--display-font);
     margin-top: 20px;
     border: 0.5em solid var(--complement); 
     
