@@ -30,9 +30,9 @@
 
 .post .text{
     background: var(--complement); 
-    margin-left:20px;
+/*     margin-left:20px; */
     padding: 10px;
-    font-size: 50px;
+    font-size: 2em;
     grid-column: 2 / span 2;
     
 }
@@ -40,6 +40,7 @@
 .post .author{
    background: var(--accent-one);
    padding: 10px;
+    margin-top 20px;
     font-size: 1.3em;
     color: var(--accent-two);
     text-align: center;
